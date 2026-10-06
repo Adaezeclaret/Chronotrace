@@ -1,0 +1,40 @@
+{
+  "duplicates": [
+    {
+      "duplicate_of_line": 101,
+      "raw_file": "endpoint.jsonl",
+      "raw_line": 201,
+      "source": "endpoint"
+    }
+  ],
+  "quarantined": [
+    {
+      "raw_file": "endpoint.jsonl",
+      "raw_line": 1509,
+      "raw_sha256": "f6a744d9c4d26ecc42aa0aaf4afbe8320acc301e4612ac59aa1fcf6ea54b8f94",
+      "reason": "malformed_json",
+      "source": "endpoint"
+    },
+    {
+      "raw_file": "endpoint.jsonl",
+      "raw_line": 1510,
+      "raw_sha256": "92628a747890d02d1459c6eb45fd13cfa63bbb6d346412cff190297cf9c33d39",
+      "reason": "malformed_json",
+      "source": "endpoint"
+    },
+    {
+      "raw_file": "endpoint.jsonl",
+      "raw_line": 1511,
+      "raw_sha256": "779b8407630501b9bdddea50277049bc46d3bc3f9d5f36b2d3cf1e0f83936501",
+      "reason": "missing_or_unparseable_time",
+      "source": "endpoint"
+    },
+    {
+      "raw_file": "endpoint.jsonl",
+      "raw_line": 1512,
+      "raw_sha256": "679f396d4c8ff4868d7d1b1162a9614cf1dcb65766e8123d3fb92504986d2f9e",
+      "reason": "missing_or_unparseable_time",
+      "source": "endpoint"
+    }
+  ]
+}

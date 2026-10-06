@@ -1,0 +1,55 @@
+[
+  {
+    "capture": "capture.pcap",
+    "capture_sha256": "1d3dd870996fbbf0467e2998e2b34dae7b4436333d4556a643b336d366e9b1fb",
+    "notes": [],
+    "split_archive": null,
+    "streams": [
+      {
+        "archive": {
+          "crc_clean": true,
+          "members": [
+            {
+              "crc32": "4f9523d5",
+              "name": "synthetic-records.csv",
+              "records": 800,
+              "size": 15715
+            },
+            {
+              "crc32": "0873d691",
+              "name": "marker.txt",
+              "size": 10
+            }
+          ],
+          "opens": true,
+          "sha256": "1b77016e2b5a0a739ba2516b041c6af3631d2e371f4576c1c6d9d12be4868e21",
+          "size_bytes": 5848
+        },
+        "bytes_after_gap": 0,
+        "client": "10.20.0.11:50123",
+        "client_payload_bytes": 5929,
+        "completeness": {
+          "reasons": [
+            "byte count matches the declared length, no gaps, archive directory present and every member checksum verifies"
+          ],
+          "status": "complete"
+        },
+        "conflicting_retransmissions": 0,
+        "first_packet": 1,
+        "first_time_utc": "2026-08-19T09:41:21.300Z",
+        "gaps": [],
+        "http": {
+          "body_bytes": 5848,
+          "content_length": 5848,
+          "host": "files-sync.example.invalid",
+          "method": "POST",
+          "path": "/u"
+        },
+        "packets": 10,
+        "retransmitted_segments": 1,
+        "server": "203.0.113.50:8443",
+        "stream": "C1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2 @@
+# ChronoTrace uses only the Python standard library (Python 3.8+).
+# Deliberately no pandas/duckdb: an earlier stage lost time to a cross-machine pandas version mismatch.

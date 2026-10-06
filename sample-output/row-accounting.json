@@ -1,0 +1,32 @@
+{
+  "auth": {
+    "duplicates": 0,
+    "loaded": 355,
+    "quarantined": 0,
+    "raw_rows": 355
+  },
+  "endpoint": {
+    "duplicates": 1,
+    "loaded": 1507,
+    "quarantined": 4,
+    "raw_rows": 1512
+  },
+  "firewall": {
+    "duplicates": 0,
+    "loaded": 304,
+    "quarantined": 0,
+    "raw_rows": 304
+  },
+  "network": {
+    "duplicates": 0,
+    "loaded": 403,
+    "quarantined": 0,
+    "raw_rows": 403
+  },
+  "script": {
+    "duplicates": 0,
+    "loaded": 203,
+    "quarantined": 0,
+    "raw_rows": 203
+  }
+}

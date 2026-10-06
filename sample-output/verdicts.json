@@ -1,0 +1,904 @@
+[
+  {
+    "confidence": "medium",
+    "end_ms": 1787101975500,
+    "end_utc": "2026-08-19T01:12:55.500Z",
+    "evidence": [
+      {
+        "eid": "auth:7",
+        "label": "login failed as svc-scan0",
+        "raw_file": "auth.jsonl",
+        "raw_line": 7,
+        "raw_sha256": "9bea90f53d894c8a549fb04dc3cc0723ee50d46d9295eaddbb58ad32983b518a",
+        "raw_time_utc": "2026-08-19T01:10:00.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:00.000Z"
+      },
+      {
+        "eid": "auth:8",
+        "label": "login failed as svc-scan1",
+        "raw_file": "auth.jsonl",
+        "raw_line": 8,
+        "raw_sha256": "d606978056aee3ac52966faaa31ea931af444103537fdf565096999f503fc723",
+        "raw_time_utc": "2026-08-19T01:10:04.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:04.500Z"
+      },
+      {
+        "eid": "auth:9",
+        "label": "login failed as svc-scan2",
+        "raw_file": "auth.jsonl",
+        "raw_line": 9,
+        "raw_sha256": "c0266a322ce9b202ad9653c9023e3f057bca068fba6051e312e464a79ff25daf",
+        "raw_time_utc": "2026-08-19T01:10:09.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:09.000Z"
+      },
+      {
+        "eid": "auth:10",
+        "label": "login failed as svc-scan3",
+        "raw_file": "auth.jsonl",
+        "raw_line": 10,
+        "raw_sha256": "fd5c5637dd5f001d3d5c41e49fddaab3992c2b3da790efefe6a34bcf88c9b41a",
+        "raw_time_utc": "2026-08-19T01:10:13.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:13.500Z"
+      },
+      {
+        "eid": "auth:11",
+        "label": "login failed as svc-scan4",
+        "raw_file": "auth.jsonl",
+        "raw_line": 11,
+        "raw_sha256": "a326174cfa63e35cf4801e78b94cee8e230ec8b2cc9796a6c64c218a5e6cf8f6",
+        "raw_time_utc": "2026-08-19T01:10:18.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:18.000Z"
+      },
+      {
+        "eid": "auth:12",
+        "label": "login failed as svc-scan5",
+        "raw_file": "auth.jsonl",
+        "raw_line": 12,
+        "raw_sha256": "932bfbdeae70af01c0fe1c2f12c14c25e295860ec670fac9bb550acbb9a87f77",
+        "raw_time_utc": "2026-08-19T01:10:22.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:22.500Z"
+      },
+      {
+        "eid": "auth:13",
+        "label": "login failed as svc-scan6",
+        "raw_file": "auth.jsonl",
+        "raw_line": 13,
+        "raw_sha256": "03388671d238051eb1a6711ca38d35991b57c9141f73d3f8ea4fe6da21a8a2be",
+        "raw_time_utc": "2026-08-19T01:10:27.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:27.000Z"
+      },
+      {
+        "eid": "auth:14",
+        "label": "login failed as svc-scan7",
+        "raw_file": "auth.jsonl",
+        "raw_line": 14,
+        "raw_sha256": "19fe4c894e849134a97700f55184ec030e5549793bf3700e67c927f8ecf6bc1f",
+        "raw_time_utc": "2026-08-19T01:10:31.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:31.500Z"
+      },
+      {
+        "eid": "auth:15",
+        "label": "login failed as svc-scan0",
+        "raw_file": "auth.jsonl",
+        "raw_line": 15,
+        "raw_sha256": "9794fb6a789231fe21e76c7d0dcf6c7bb24f9b5dddeb5716228b3c749d8f661f",
+        "raw_time_utc": "2026-08-19T01:10:36.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:36.000Z"
+      },
+      {
+        "eid": "auth:16",
+        "label": "login failed as svc-scan1",
+        "raw_file": "auth.jsonl",
+        "raw_line": 16,
+        "raw_sha256": "7dd25c2e7d4ca9f2f24d0539bf6dfe176fd1d3357d3fde75fc8d72bbbce4c8e9",
+        "raw_time_utc": "2026-08-19T01:10:40.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:40.500Z"
+      },
+      {
+        "eid": "auth:18",
+        "label": "login failed as svc-scan2",
+        "raw_file": "auth.jsonl",
+        "raw_line": 18,
+        "raw_sha256": "9af952384be0a92d2908ac1db6914f6eb4ef40bf52021697761d06f9aa60e8fe",
+        "raw_time_utc": "2026-08-19T01:10:45.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:45.000Z"
+      },
+      {
+        "eid": "auth:19",
+        "label": "login failed as svc-scan3",
+        "raw_file": "auth.jsonl",
+        "raw_line": 19,
+        "raw_sha256": "06212fe14b92a3c0c63ab40485ef3b4becf5c01e4cca9748ff32d7cc34f70e9c",
+        "raw_time_utc": "2026-08-19T01:10:49.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:49.500Z"
+      },
+      {
+        "eid": "auth:20",
+        "label": "login failed as svc-scan4",
+        "raw_file": "auth.jsonl",
+        "raw_line": 20,
+        "raw_sha256": "6778a982d603c7de858787df5768d5ebb35e7368d0d63e4cb606ecb201f3e48f",
+        "raw_time_utc": "2026-08-19T01:10:54.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:54.000Z"
+      },
+      {
+        "eid": "auth:21",
+        "label": "login failed as svc-scan5",
+        "raw_file": "auth.jsonl",
+        "raw_line": 21,
+        "raw_sha256": "b5a0e98baed7ad5f5023fc312ea0d70852194b89f035b82894084c1f1887196c",
+        "raw_time_utc": "2026-08-19T01:10:58.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:10:58.500Z"
+      },
+      {
+        "eid": "auth:22",
+        "label": "login failed as svc-scan6",
+        "raw_file": "auth.jsonl",
+        "raw_line": 22,
+        "raw_sha256": "3327701560afe25aa9988d4218915082fe46d6e3165fb953593fb5d9f958b378",
+        "raw_time_utc": "2026-08-19T01:11:03.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:03.000Z"
+      },
+      {
+        "eid": "auth:23",
+        "label": "login failed as svc-scan7",
+        "raw_file": "auth.jsonl",
+        "raw_line": 23,
+        "raw_sha256": "7161a660c4d5f34b63fbbf30a455ba973aa5636d293b919f7f7f24623dd950bb",
+        "raw_time_utc": "2026-08-19T01:11:07.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:07.500Z"
+      },
+      {
+        "eid": "auth:24",
+        "label": "login failed as svc-scan0",
+        "raw_file": "auth.jsonl",
+        "raw_line": 24,
+        "raw_sha256": "09341112d420a2ac0e84820ffedab3f5f464e84379802f3997a2820584d07a12",
+        "raw_time_utc": "2026-08-19T01:11:12.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:12.000Z"
+      },
+      {
+        "eid": "auth:25",
+        "label": "login failed as svc-scan1",
+        "raw_file": "auth.jsonl",
+        "raw_line": 25,
+        "raw_sha256": "97156e6987b0d4b4c7fde3639f8b303746aeb1249ce0a97e86c909c4262c4a64",
+        "raw_time_utc": "2026-08-19T01:11:16.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:16.500Z"
+      },
+      {
+        "eid": "auth:26",
+        "label": "login failed as svc-scan2",
+        "raw_file": "auth.jsonl",
+        "raw_line": 26,
+        "raw_sha256": "3f0d4bac6d4ec25c59a5f7988bbdcb8cc656550368c71dcc41aecd2995093b70",
+        "raw_time_utc": "2026-08-19T01:11:21.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:21.000Z"
+      },
+      {
+        "eid": "auth:27",
+        "label": "login failed as svc-scan3",
+        "raw_file": "auth.jsonl",
+        "raw_line": 27,
+        "raw_sha256": "6813fa48052304e9645d0c7dc7a8fb4e452747f5a97a6c4afb7a6cb28624d047",
+        "raw_time_utc": "2026-08-19T01:11:25.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:25.500Z"
+      },
+      {
+        "eid": "auth:28",
+        "label": "login failed as svc-scan4",
+        "raw_file": "auth.jsonl",
+        "raw_line": 28,
+        "raw_sha256": "3665d213bc781366c84b040bf0d6e6a4ff6809d6ffa3d7a1d2b4d130abd9d0d9",
+        "raw_time_utc": "2026-08-19T01:11:30.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:30.000Z"
+      },
+      {
+        "eid": "auth:29",
+        "label": "login failed as svc-scan5",
+        "raw_file": "auth.jsonl",
+        "raw_line": 29,
+        "raw_sha256": "c5c28561dab2d2358fb1c92aaa248bd09b32fa8c805c14aaad38ec8715946639",
+        "raw_time_utc": "2026-08-19T01:11:34.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:34.500Z"
+      },
+      {
+        "eid": "auth:30",
+        "label": "login failed as svc-scan6",
+        "raw_file": "auth.jsonl",
+        "raw_line": 30,
+        "raw_sha256": "3174bfb6428af5bb10fc97a2c27941d8ec7113cccd162f9cebbd4507848f30cb",
+        "raw_time_utc": "2026-08-19T01:11:39.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:39.000Z"
+      },
+      {
+        "eid": "auth:31",
+        "label": "login failed as svc-scan7",
+        "raw_file": "auth.jsonl",
+        "raw_line": 31,
+        "raw_sha256": "ce4d096af04e720393bac486a6cd9a0d7ccff53f6f5f2328e470f939f360c3e1",
+        "raw_time_utc": "2026-08-19T01:11:43.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:43.500Z"
+      },
+      {
+        "eid": "auth:32",
+        "label": "login failed as svc-scan0",
+        "raw_file": "auth.jsonl",
+        "raw_line": 32,
+        "raw_sha256": "3962769b5a890efe13a087b72aae2c7d7148b2561d4bb5f4b8b6553513366471",
+        "raw_time_utc": "2026-08-19T01:11:48.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:48.000Z"
+      },
+      {
+        "eid": "auth:33",
+        "label": "login failed as svc-scan1",
+        "raw_file": "auth.jsonl",
+        "raw_line": 33,
+        "raw_sha256": "588db9124218d4136fe4525a348c20cde7e74221a017fd7cafde752ffe195b83",
+        "raw_time_utc": "2026-08-19T01:11:52.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:52.500Z"
+      },
+      {
+        "eid": "auth:34",
+        "label": "login failed as svc-scan2",
+        "raw_file": "auth.jsonl",
+        "raw_line": 34,
+        "raw_sha256": "f36891fd4c472740834a0c913a4b6fdb1fbbcea7f6e7f481f662504c43c2d943",
+        "raw_time_utc": "2026-08-19T01:11:57.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:11:57.000Z"
+      },
+      {
+        "eid": "auth:35",
+        "label": "login failed as svc-scan3",
+        "raw_file": "auth.jsonl",
+        "raw_line": 35,
+        "raw_sha256": "341b8bbd5a2033dd37d6a00ae959cc8214cfbfe11d5ad6f118a675c674e8104b",
+        "raw_time_utc": "2026-08-19T01:12:01.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:01.500Z"
+      },
+      {
+        "eid": "auth:36",
+        "label": "login failed as svc-scan4",
+        "raw_file": "auth.jsonl",
+        "raw_line": 36,
+        "raw_sha256": "66f433c4de9995be9a93a9fe8d80de3565720ae095fb36d11f6c0a760781b46f",
+        "raw_time_utc": "2026-08-19T01:12:06.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:06.000Z"
+      },
+      {
+        "eid": "auth:37",
+        "label": "login failed as svc-scan5",
+        "raw_file": "auth.jsonl",
+        "raw_line": 37,
+        "raw_sha256": "7161388a2173926a8e75941715ec417a976147ea9549f3050bef75919ddab46f",
+        "raw_time_utc": "2026-08-19T01:12:10.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:10.500Z"
+      },
+      {
+        "eid": "auth:38",
+        "label": "login failed as svc-scan6",
+        "raw_file": "auth.jsonl",
+        "raw_line": 38,
+        "raw_sha256": "056e8eaef9bade693f3718ecd8cebbb0706b823b6bc6855967bb6a8886907854",
+        "raw_time_utc": "2026-08-19T01:12:15.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:15.000Z"
+      },
+      {
+        "eid": "auth:39",
+        "label": "login failed as svc-scan7",
+        "raw_file": "auth.jsonl",
+        "raw_line": 39,
+        "raw_sha256": "4e9ee59d26a5fefb29a940cd5c036d821cad2a7ba61090b4e9493208c35dd60e",
+        "raw_time_utc": "2026-08-19T01:12:19.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:19.500Z"
+      },
+      {
+        "eid": "auth:40",
+        "label": "login failed as svc-scan0",
+        "raw_file": "auth.jsonl",
+        "raw_line": 40,
+        "raw_sha256": "bc72abdbb34c32638e51f8d17c1d5819bfba8beb0d21e63c5b67a6fe8fad5929",
+        "raw_time_utc": "2026-08-19T01:12:24.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:24.000Z"
+      },
+      {
+        "eid": "auth:41",
+        "label": "login failed as svc-scan1",
+        "raw_file": "auth.jsonl",
+        "raw_line": 41,
+        "raw_sha256": "0237ac1fd98cc75fdc2a7fc7f4e89035464d9a154c7598c1c1f78d318b03c926",
+        "raw_time_utc": "2026-08-19T01:12:28.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:28.500Z"
+      },
+      {
+        "eid": "auth:42",
+        "label": "login failed as svc-scan2",
+        "raw_file": "auth.jsonl",
+        "raw_line": 42,
+        "raw_sha256": "16eb9e6bc31eae1289619d7322c8546543aa9923d4b2415c8b7fa293bd2fa646",
+        "raw_time_utc": "2026-08-19T01:12:33.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:33.000Z"
+      },
+      {
+        "eid": "auth:43",
+        "label": "login failed as svc-scan3",
+        "raw_file": "auth.jsonl",
+        "raw_line": 43,
+        "raw_sha256": "bd33f6b7237363cabf2abe5cb61def122797ce3fc963959cb396d09ed02d3a6a",
+        "raw_time_utc": "2026-08-19T01:12:37.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:37.500Z"
+      },
+      {
+        "eid": "auth:44",
+        "label": "login failed as svc-scan4",
+        "raw_file": "auth.jsonl",
+        "raw_line": 44,
+        "raw_sha256": "69c949c7d03c4d16917dcef6e1326792013b241ef31909257a1d48f6962a0042",
+        "raw_time_utc": "2026-08-19T01:12:42.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:42.000Z"
+      },
+      {
+        "eid": "auth:45",
+        "label": "login failed as svc-scan5",
+        "raw_file": "auth.jsonl",
+        "raw_line": 45,
+        "raw_sha256": "98bfe070df1a4f84b6026bc3d7cc3a4782081ed02e8c87904f7ad2a01da8d4e3",
+        "raw_time_utc": "2026-08-19T01:12:46.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:46.500Z"
+      },
+      {
+        "eid": "auth:46",
+        "label": "login failed as svc-scan6",
+        "raw_file": "auth.jsonl",
+        "raw_line": 46,
+        "raw_sha256": "ea5b0f690820dcec46d70f31ded829ba24737ce003857045f5b76251a19857e9",
+        "raw_time_utc": "2026-08-19T01:12:51.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:51.000Z"
+      },
+      {
+        "eid": "auth:47",
+        "label": "login failed as svc-scan7",
+        "raw_file": "auth.jsonl",
+        "raw_line": 47,
+        "raw_sha256": "c52102d888e7b13f57264712ae9116868b0285d7ba2122b4bca371330522411a",
+        "raw_time_utc": "2026-08-19T01:12:55.500Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T01:12:55.500Z"
+      }
+    ],
+    "explanation": "Address 10.77.10.9 failed 40 logins from 2026-08-19 01:10:00 UTC, which looks like password guessing, but it was rejected as an authorised scan: source address and full time span covered by approved change CHG-SCAN-DEMO.",
+    "facts": {
+      "change_id": "CHG-SCAN-DEMO",
+      "distinct_accounts": 8,
+      "failures": 40,
+      "followed_by_success": false,
+      "src_ip": "10.77.10.9",
+      "success_account": null,
+      "techniques": [
+        "T1110"
+      ]
+    },
+    "id": "V-001",
+    "independent_sources": 1,
+    "limitations": [],
+    "reasons": [
+      "source address and full time span covered by approved change CHG-SCAN-DEMO"
+    ],
+    "rule": "auth_failure_burst",
+    "severity": "info",
+    "start_ms": 1787101800000,
+    "start_utc": "2026-08-19T01:10:00.000Z",
+    "status": "REJECTED_BENIGN",
+    "subject": "10.77.10.9"
+  },
+  {
+    "confidence": "high",
+    "end_ms": 1787108420300,
+    "end_utc": "2026-08-19T03:00:20.300Z",
+    "evidence": [
+      {
+        "eid": "endpoint:181",
+        "label": "backupagent started tar",
+        "raw_file": "endpoint.jsonl",
+        "raw_line": 181,
+        "raw_sha256": "2a6fa441ab75fabd58fa07df2992f18548aa6989406c2b306b0aa90d934bdd44",
+        "raw_time_utc": "2026-08-19T09:13:27.000Z",
+        "source": "endpoint",
+        "stage": "staging",
+        "time_utc": "2026-08-19T03:00:00.000Z"
+      },
+      {
+        "eid": "endpoint:182",
+        "label": "backupagent started curl",
+        "raw_file": "endpoint.jsonl",
+        "raw_line": 182,
+        "raw_sha256": "da8097e36a5abee51d83595bf39eb34acbd867d2ffe085120129e6f80649139d",
+        "raw_time_utc": "2026-08-19T09:13:47.000Z",
+        "source": "endpoint",
+        "stage": "transfer",
+        "time_utc": "2026-08-19T03:00:20.000Z"
+      },
+      {
+        "eid": "network:59",
+        "label": "connection to backup.corp.internal",
+        "raw_file": "network.jsonl",
+        "raw_line": 59,
+        "raw_sha256": "b738c5c0560ca8e3fa7a8acde312be86e507d8feae1e69e597ae52400fa323a4",
+        "raw_time_utc": "2026-08-19T03:00:15.300Z",
+        "source": "network",
+        "stage": "transfer",
+        "time_utc": "2026-08-19T03:00:20.300Z"
+      }
+    ],
+    "explanation": "On SRV-DEMO-07 at 2026-08-19 03:00:00 UTC, files were archived and sent to backup.corp.internal. That looks like data theft at first glance, but it was rejected as routine activity: archive was started by a scheduler/service host, not by a user document or script; every destination is internal: backup.corp.internal.",
+    "facts": {
+      "archive_parent_class": "service",
+      "change_id": null,
+      "destinations": [
+        "backup.corp.internal"
+      ],
+      "external_destination": false
+    },
+    "id": "V-002",
+    "independent_sources": 2,
+    "limitations": [],
+    "reasons": [
+      "archive was started by a scheduler/service host, not by a user document or script",
+      "every destination is internal: backup.corp.internal"
+    ],
+    "rule": "staging_without_entry_point",
+    "severity": "info",
+    "start_ms": 1787108400000,
+    "start_utc": "2026-08-19T03:00:00.000Z",
+    "status": "REJECTED_BENIGN",
+    "subject": "SRV-DEMO-07"
+  },
+  {
+    "confidence": "high",
+    "end_ms": 1787133814000,
+    "end_utc": "2026-08-19T10:03:34.000Z",
+    "evidence": [
+      {
+        "eid": "firewall:104",
+        "label": "connection to auth-gw.corp.internal",
+        "raw_file": "firewall.jsonl",
+        "raw_line": 104,
+        "raw_sha256": "ac2d701d11bc029beffd9056822c9f7f39b412eae9985ff6355a34e2bc686e82",
+        "raw_time_utc": "2026-08-19T08:05:11.630Z",
+        "source": "firewall",
+        "stage": "corroboration",
+        "time_utc": "2026-08-19T08:04:59.630Z"
+      },
+      {
+        "eid": "auth:133",
+        "label": "login failed as j.okafor",
+        "raw_file": "auth.jsonl",
+        "raw_line": 133,
+        "raw_sha256": "854163fb8b3784f551dae63074b8c8d35d80efff1eba2de13fdb27b8449be6b9",
+        "raw_time_utc": "2026-08-19T08:05:00.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T08:05:00.000Z"
+      },
+      {
+        "eid": "auth:134",
+        "label": "login failed as t.bello",
+        "raw_file": "auth.jsonl",
+        "raw_line": 134,
+        "raw_sha256": "f87ba43b00b30a89702cabec19dbb06d3eb98764ba5ec8f9911aef60c332586f",
+        "raw_time_utc": "2026-08-19T08:11:08.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T08:11:08.000Z"
+      },
+      {
+        "eid": "auth:135",
+        "label": "login failed as a.eze",
+        "raw_file": "auth.jsonl",
+        "raw_line": 135,
+        "raw_sha256": "b161aa8778b6caa8128f1c0ef4b2b00d221fa40fd8acc4d54716a19514be967e",
+        "raw_time_utc": "2026-08-19T08:19:56.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T08:19:56.000Z"
+      },
+      {
+        "eid": "auth:137",
+        "label": "login failed as m.musa",
+        "raw_file": "auth.jsonl",
+        "raw_line": 137,
+        "raw_sha256": "283f30613aee4d7995f437638debdd680f01e5a251ce86a8f93c810c0614a63d",
+        "raw_time_utc": "2026-08-19T08:27:41.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T08:27:41.000Z"
+      },
+      {
+        "eid": "auth:138",
+        "label": "login failed as k.adeyemi",
+        "raw_file": "auth.jsonl",
+        "raw_line": 138,
+        "raw_sha256": "6331ca59c7aa2508168c046ef78bf997cae81f974097fa9127c232c4fc3d4684",
+        "raw_time_utc": "2026-08-19T08:34:27.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T08:34:27.000Z"
+      },
+      {
+        "eid": "auth:139",
+        "label": "login failed as j.okafor",
+        "raw_file": "auth.jsonl",
+        "raw_line": 139,
+        "raw_sha256": "8b3d1cf1065000393be2813418b061fb3468c23be57753ca5d47cff9db23fac4",
+        "raw_time_utc": "2026-08-19T08:43:14.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T08:43:14.000Z"
+      },
+      {
+        "eid": "auth:145",
+        "label": "login failed as t.bello",
+        "raw_file": "auth.jsonl",
+        "raw_line": 145,
+        "raw_sha256": "117bd43d7d55338bea6c7490e14d5eed0e621bd305ab52031a3f826a18c3ecdb",
+        "raw_time_utc": "2026-08-19T08:50:15.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T08:50:15.000Z"
+      },
+      {
+        "eid": "auth:147",
+        "label": "login failed as a.eze",
+        "raw_file": "auth.jsonl",
+        "raw_line": 147,
+        "raw_sha256": "7b3c623b9251e5d531f671fcf64707030d3328fcb3f8f894a12451ae6b1122ab",
+        "raw_time_utc": "2026-08-19T08:55:44.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T08:55:44.000Z"
+      },
+      {
+        "eid": "auth:148",
+        "label": "login failed as m.musa",
+        "raw_file": "auth.jsonl",
+        "raw_line": 148,
+        "raw_sha256": "384cef2f08c1e488e164cbfca81c5ce39844422ad4679485b447c4134363aee3",
+        "raw_time_utc": "2026-08-19T09:02:50.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T09:02:50.000Z"
+      },
+      {
+        "eid": "auth:151",
+        "label": "login failed as k.adeyemi",
+        "raw_file": "auth.jsonl",
+        "raw_line": 151,
+        "raw_sha256": "00e8445167bfd97421ac975d3230b15ce62ff91102ca7cf5d79313a65a3ed6fe",
+        "raw_time_utc": "2026-08-19T09:10:29.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T09:10:29.000Z"
+      },
+      {
+        "eid": "auth:152",
+        "label": "login failed as j.okafor",
+        "raw_file": "auth.jsonl",
+        "raw_line": 152,
+        "raw_sha256": "6fcf888943028dbb0b3d8a8f43fb1498f02d94514bb5f31f5682aecc14e57c91",
+        "raw_time_utc": "2026-08-19T09:19:29.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T09:19:29.000Z"
+      },
+      {
+        "eid": "auth:155",
+        "label": "login failed as t.bello",
+        "raw_file": "auth.jsonl",
+        "raw_line": 155,
+        "raw_sha256": "53b4e85891c93c837d75ec7e832b8261c5914aa8c76727bf312dcca0f436fcf5",
+        "raw_time_utc": "2026-08-19T09:27:14.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T09:27:14.000Z"
+      },
+      {
+        "eid": "auth:157",
+        "label": "login failed as a.eze",
+        "raw_file": "auth.jsonl",
+        "raw_line": 157,
+        "raw_sha256": "570de9ab52fb59e93c511c4b9106c6804ac8d5c15eadce7d69b01250f2548a10",
+        "raw_time_utc": "2026-08-19T09:33:42.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T09:33:42.000Z"
+      },
+      {
+        "eid": "auth:159",
+        "label": "login failed as m.musa",
+        "raw_file": "auth.jsonl",
+        "raw_line": 159,
+        "raw_sha256": "38746887d74fd29e2239c53f646d649a76fa5387fd5d2874df90733f3ef2ab93",
+        "raw_time_utc": "2026-08-19T09:40:36.000Z",
+        "source": "auth",
+        "stage": "failure",
+        "time_utc": "2026-08-19T09:40:36.000Z"
+      },
+      {
+        "eid": "firewall:132",
+        "label": "connection to auth-gw.corp.internal",
+        "raw_file": "firewall.jsonl",
+        "raw_line": 132,
+        "raw_sha256": "a1bdc70dc81e4dcd16b7bbe61897117810513decbff51c5a643e91f07211aecc",
+        "raw_time_utc": "2026-08-19T10:03:45.983Z",
+        "source": "firewall",
+        "stage": "corroboration",
+        "time_utc": "2026-08-19T10:03:33.983Z"
+      },
+      {
+        "eid": "auth:168",
+        "label": "login success as j.okafor",
+        "raw_file": "auth.jsonl",
+        "raw_line": 168,
+        "raw_sha256": "5ab78fe35396cd3f28fec42951d9248d75f79d4fe513a079fee526aab918d5a0",
+        "raw_time_utc": "2026-08-19T10:03:34.000Z",
+        "source": "auth",
+        "stage": "success",
+        "time_utc": "2026-08-19T10:03:34.000Z"
+      }
+    ],
+    "explanation": "Address 192.0.2.88 failed 14 logins across 5 account(s) starting 2026-08-19 08:05:00 UTC, a pattern consistent with password guessing. It then succeeded as j.okafor, meaning a guess may have worked.",
+    "facts": {
+      "distinct_accounts": 5,
+      "failures": 14,
+      "followed_by_success": true,
+      "src_ip": "192.0.2.88",
+      "success_account": "j.okafor",
+      "techniques": [
+        "T1110"
+      ]
+    },
+    "id": "V-003",
+    "independent_sources": 2,
+    "limitations": [
+      "Only one log source observed this address; add firewall/endpoint logs to corroborate."
+    ],
+    "reasons": [],
+    "rule": "auth_failure_burst",
+    "severity": "high",
+    "start_ms": 1787126700000,
+    "start_utc": "2026-08-19T08:05:00.000Z",
+    "status": "ALERT",
+    "subject": "192.0.2.88"
+  },
+  {
+    "confidence": "high",
+    "end_ms": 1787132483641,
+    "end_utc": "2026-08-19T09:41:23.641Z",
+    "evidence": [
+      {
+        "eid": "endpoint:577",
+        "label": "winword started powershell",
+        "raw_file": "endpoint.jsonl",
+        "raw_line": 577,
+        "raw_sha256": "2c20938823fafc496d9118bb0907f56d3e7737d124bcd0e9565d0c78ab64050c",
+        "raw_time_utc": "2026-08-19T15:54:38.992Z",
+        "source": "endpoint",
+        "stage": "initial_access",
+        "time_utc": "2026-08-19T09:41:11.992Z"
+      },
+      {
+        "eid": "script:69",
+        "label": "script: Set-Location C:\\work",
+        "raw_file": "script.jsonl",
+        "raw_line": 69,
+        "raw_sha256": "ac2eed915e7cf17e19ea2674e29ceaf983760031271fe5ab74dbecd652528589",
+        "raw_time_utc": "2026-08-19T09:41:12.374Z",
+        "source": "script",
+        "stage": "corroboration",
+        "time_utc": "2026-08-19T09:41:12.374Z"
+      },
+      {
+        "eid": "endpoint:578",
+        "label": "powershell started schtasks",
+        "raw_file": "endpoint.jsonl",
+        "raw_line": 578,
+        "raw_sha256": "4aa96c5a6b45486bf5775c1ec3e74d0b89475a786040315d210c334071d98b9c",
+        "raw_time_utc": "2026-08-19T15:54:40.974Z",
+        "source": "endpoint",
+        "stage": "persistence",
+        "time_utc": "2026-08-19T09:41:13.974Z"
+      },
+      {
+        "eid": "script:70",
+        "label": "script: Register-ScheduledTask SupportSync",
+        "raw_file": "script.jsonl",
+        "raw_line": 70,
+        "raw_sha256": "e611ed2f22f14e04a2d4d885f2c8586ade74aa53d097596b8506604bcf0e1720",
+        "raw_time_utc": "2026-08-19T09:41:14.175Z",
+        "source": "script",
+        "stage": "corroboration",
+        "time_utc": "2026-08-19T09:41:14.175Z"
+      },
+      {
+        "eid": "endpoint:579",
+        "label": "powershell started tar",
+        "raw_file": "endpoint.jsonl",
+        "raw_line": 579,
+        "raw_sha256": "3501ded872a028fb535438d0f9dbe466a594c53fc0e2a8c71b2e04694bd4ff86",
+        "raw_time_utc": "2026-08-19T15:54:44.076Z",
+        "source": "endpoint",
+        "stage": "staging",
+        "time_utc": "2026-08-19T09:41:17.076Z"
+      },
+      {
+        "eid": "endpoint:580",
+        "label": "powershell started curl",
+        "raw_file": "endpoint.jsonl",
+        "raw_line": 580,
+        "raw_sha256": "a86e9e40b45a99e45ad8da4ce5ba60397f90888ba39343346a3ecd5946f1f4f2",
+        "raw_time_utc": "2026-08-19T15:54:48.233Z",
+        "source": "endpoint",
+        "stage": "egress",
+        "time_utc": "2026-08-19T09:41:21.233Z"
+      },
+      {
+        "eid": "firewall:124",
+        "label": "connection to files-sync.example.invalid",
+        "raw_file": "firewall.jsonl",
+        "raw_line": 124,
+        "raw_sha256": "25c8ab24779c5b21c4ace1c91d2829bb5bb8a2e4746612de4c0129246bc28e8a",
+        "raw_time_utc": "2026-08-19T09:41:33.560Z",
+        "source": "firewall",
+        "stage": "egress",
+        "time_utc": "2026-08-19T09:41:21.560Z"
+      },
+      {
+        "eid": "network:180",
+        "label": "connection to files-sync.example.invalid",
+        "raw_file": "network.jsonl",
+        "raw_line": 180,
+        "raw_sha256": "182e51cd024757c9ceabb304f77091693756230107c1f735480b7a4b40f1acf3",
+        "raw_time_utc": "2026-08-19T09:41:16.672Z",
+        "source": "network",
+        "stage": "egress",
+        "time_utc": "2026-08-19T09:41:21.672Z"
+      },
+      {
+        "eid": "endpoint:581",
+        "label": "file deleted by cmd",
+        "raw_file": "endpoint.jsonl",
+        "raw_line": 581,
+        "raw_sha256": "23298d22884b3b03df02134486a131521821f6341b4604995a9167e864026fc2",
+        "raw_time_utc": "2026-08-19T15:54:50.641Z",
+        "source": "endpoint",
+        "stage": "cleanup",
+        "time_utc": "2026-08-19T09:41:23.641Z"
+      }
+    ],
+    "explanation": "On WKS-DEMO-01 at 2026-08-19 09:41:11 UTC, a winword document opened a scripting tool (powershell). Within 11s the same computer set up a scheduled task (a trick to keep access after a restart), packed files into a single archive, sent data out to an outside address, and deleted the local copy to hide it (destination: files-sync.example.invalid). This is the classic shape of a malicious document followed by data theft. The packet capture shows what left: a 5,848-byte archive holding 2 file(s) (800 records), and the recovered transfer is complete: nothing is missing.",
+    "facts": {
+      "destinations": [
+        "files-sync.example.invalid"
+      ],
+      "duration_s": 11.649,
+      "entry_child": "powershell",
+      "entry_child_class": "script",
+      "entry_parent": "winword",
+      "entry_parent_class": "office",
+      "exfil": {
+        "bytes": 5848,
+        "files": 2,
+        "records": 800,
+        "seconds_from_logged_egress": 0.1,
+        "sha256": "1b77016e2b5a0a739ba2516b041c6af3631d2e371f4576c1c6d9d12be4868e21",
+        "status": "complete",
+        "stream": "C1"
+      },
+      "stages_present": [
+        "initial_access",
+        "persistence",
+        "staging",
+        "egress",
+        "cleanup"
+      ],
+      "techniques": [
+        "T1566/T1059",
+        "T1053.005",
+        "T1560",
+        "T1041",
+        "T1070.004"
+      ]
+    },
+    "id": "V-004",
+    "independent_sources": 4,
+    "limitations": [
+      "Timing relies on the inferred clock offsets; see skew-report.json."
+    ],
+    "reasons": [],
+    "rule": "staging_exfil_chain",
+    "severity": "critical",
+    "start_ms": 1787132471992,
+    "start_utc": "2026-08-19T09:41:11.992Z",
+    "status": "ALERT",
+    "subject": "WKS-DEMO-01"
+  }
+]

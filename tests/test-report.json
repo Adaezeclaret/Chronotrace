@@ -1,0 +1,283 @@
+{
+  "errors": 0,
+  "failed": 0,
+  "passed": 55,
+  "results": [
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.AuthTests.test_approved_scanner_rejected_but_same_burst_without_change_alerts"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.AuthTests.test_below_threshold_is_quiet"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.AuthTests.test_slow_spray_then_success_is_high"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.AuthTests.test_success_after_approved_window_breaks_the_exemption"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.ChainTests.test_canonical_chain_alerts_critical"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.ChainTests.test_chain_outside_window_does_not_alert"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.ChainTests.test_confidence_reflects_independent_sources"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.ChainTests.test_input_order_does_not_change_verdicts"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.ChainTests.test_lolbin_swaps_still_alert"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.ChainTests.test_missing_stage_means_no_chain"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.ChainTests.test_office_spawning_browser_does_not_alert"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.LookalikeTests.test_approved_change_covers_external_transfer_only_inside_window"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.LookalikeTests.test_documentation_range_ips_are_external"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.LookalikeTests.test_internal_service_backup_is_rejected_with_reasons"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.LookalikeTests.test_same_archive_to_external_destination_alerts"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.LookalikeTests.test_time_only_change_record_cannot_whitelist_everything"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_detect.LookalikeTests.test_user_launched_internal_archive_is_not_auto_rejected"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_ingest.IngestTests.test_destination_extracted_from_url_and_default_event"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_ingest.IngestTests.test_epoch_and_offset_timestamps"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_ingest.IngestTests.test_exact_duplicates_collapse_and_accounting_balances"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_ingest.IngestTests.test_malformed_and_missing_time_are_quarantined_with_line_numbers"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_ingest.IngestTests.test_three_schema_versions_normalise_identically"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_metrics.MetricsTests.test_peak_memory_is_a_positive_number_or_none_never_an_exception"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_bad_inputs_raise_clear_errors_or_notes"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_complete_upload_is_recovered_byte_for_byte"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_conflicting_retransmission_is_flagged"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_missing_last_segment_is_caught_by_declared_length"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_missing_middle_segment_is_a_gap_not_a_success"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_nanosecond_big_endian_header_is_read"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_nothing_is_written_to_disk"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_out_of_order_and_identical_retransmission_are_handled"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_payload_without_zip_reports_no_archive"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_sequence_number_wraparound"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pcap.PcapTests.test_split_archive_across_two_connections_is_reassembled_in_time_order"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_capture_confirms_what_left_and_is_linked_to_the_chain"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_chain_evidence_spans_independent_sources"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_chain_is_twelve_seconds_after_correction"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_every_evidence_locator_resolves_to_the_raw_line"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_exfiltrated_content_is_never_written_to_the_output_folder"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_expected_findings"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_manifest_verifies_and_excludes_runtime_metrics"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_no_wall_clock_leaks_into_hashed_outputs"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_row_accounting_balances_and_bad_rows_are_visible"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_skew_recovered_within_two_seconds"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_spray_is_corroborated_by_firewall_and_rated_high_confidence"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_two_clean_builds_are_byte_identical"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_viewer_escapes_script_terminator_in_data"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_pipeline.PipelineTests.test_viewer_is_self_contained_and_embeds_valid_data"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_skew.SkewTests.test_apply_skew_moves_timestamps"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_skew.SkewTests.test_outlier_anchor_rejected"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_skew.SkewTests.test_recovers_known_offset_and_uses_majority_reference"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_skew.SkewTests.test_reference_override_and_bad_reference"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_skew.SkewTests.test_single_anchor_is_low_confidence"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_skew.SkewTests.test_strong_links_beat_a_weak_direct_link"
+    },
+    {
+      "detail": "",
+      "status": "pass",
+      "test": "test_skew.SkewTests.test_unanchored_source_is_flagged_not_guessed"
+    }
+  ],
+  "total": 55
+}

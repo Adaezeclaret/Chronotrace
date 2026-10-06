@@ -1,0 +1,13 @@
+{
+  "changes": [
+    {
+      "approved_by": "change-advisory",
+      "change_id": "CHG-SCAN-DEMO",
+      "ends_at": "2026-08-19T02:00:00Z",
+      "purpose": "authorised vulnerability scan",
+      "src_ip": "10.77.10.9",
+      "starts_at": "2026-08-19T00:00:00Z",
+      "status": "APPROVED"
+    }
+  ]
+}

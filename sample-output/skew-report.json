@@ -1,0 +1,111 @@
+{
+  "cycle_check_max_residual_s": 0,
+  "pair_estimates": [
+    {
+      "a": "auth",
+      "anchors": 2,
+      "b": "firewall",
+      "confidence": "high",
+      "delta_s": -12,
+      "inliers": 2,
+      "rejected_anchors": [],
+      "spread_s": 0.353
+    },
+    {
+      "a": "endpoint",
+      "anchors": 1,
+      "b": "firewall",
+      "confidence": "low",
+      "delta_s": 22395,
+      "inliers": 1,
+      "rejected_anchors": [],
+      "spread_s": 0.0
+    },
+    {
+      "a": "endpoint",
+      "anchors": 2,
+      "b": "network",
+      "confidence": "high",
+      "delta_s": 22412,
+      "inliers": 2,
+      "rejected_anchors": [],
+      "spread_s": 0.139
+    },
+    {
+      "a": "endpoint",
+      "anchors": 2,
+      "b": "script",
+      "confidence": "high",
+      "delta_s": 22407,
+      "inliers": 2,
+      "rejected_anchors": [],
+      "spread_s": 0.181
+    },
+    {
+      "a": "firewall",
+      "anchors": 2,
+      "b": "network",
+      "confidence": "high",
+      "delta_s": 17,
+      "inliers": 2,
+      "rejected_anchors": [],
+      "spread_s": 0.02
+    },
+    {
+      "a": "firewall",
+      "anchors": 1,
+      "b": "script",
+      "confidence": "low",
+      "delta_s": 12,
+      "inliers": 1,
+      "rejected_anchors": [],
+      "spread_s": 0.0
+    },
+    {
+      "a": "network",
+      "anchors": 1,
+      "b": "script",
+      "confidence": "low",
+      "delta_s": -5,
+      "inliers": 1,
+      "rejected_anchors": [],
+      "spread_s": 0.0
+    }
+  ],
+  "reference": "script",
+  "reference_method": "median-clock",
+  "sources": {
+    "auth": {
+      "confidence": "high",
+      "description": "no correction applied",
+      "offset_seconds": 0,
+      "status": "anchored"
+    },
+    "endpoint": {
+      "confidence": "high",
+      "description": "clock runs ahead of the reference by 6h 13m 27s; subtracted",
+      "offset_seconds": -22407,
+      "status": "anchored"
+    },
+    "firewall": {
+      "confidence": "high",
+      "description": "clock runs ahead of the reference by 12s; subtracted",
+      "offset_seconds": -12,
+      "status": "anchored"
+    },
+    "network": {
+      "confidence": "high",
+      "description": "clock runs behind the reference by 5s; added",
+      "offset_seconds": 5,
+      "status": "anchored"
+    },
+    "script": {
+      "confidence": "reference",
+      "description": "no correction applied",
+      "offset_seconds": 0,
+      "status": "reference"
+    }
+  },
+  "tolerance_s": 30.0,
+  "warnings": []
+}
