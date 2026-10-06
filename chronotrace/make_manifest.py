@@ -1,11 +1,11 @@
 """Create or check manifest.sha256 for this repository (standard library only).
 
-    python tools/make_manifest.py           write manifest.sha256 (run this LAST, after every other edit)
-    python tools/make_manifest.py --check   verify every file against the manifest
+    python chronotrace/make_manifest.py           write manifest.sha256 (run this LAST, after every other edit)
+    python chronotrace/make_manifest.py --check   verify every file against the manifest
 
 The manifest lists the SHA-256 of every file in the repository (sorted, forward-slash paths),
-except generated or private folders and the manifest itself. Anyone can re-run --check to
-confirm the repository was not altered after it was written."""
+except generated or private folders and the manifest itself. Text files are hashed with line
+endings normalised, so Windows and Linux checkouts give the same result."""
 import hashlib
 import os
 import sys
@@ -16,11 +16,11 @@ SKIP_DIRS = {".git", "__pycache__", "demo", "venv", ".venv", "node_modules"}
 
 
 def sha256_file(path):
-    h = hashlib.sha256()
     with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(1 << 20), b""):
-            h.update(chunk)
-    return h.hexdigest()
+        data = f.read()
+    if b"\x00" not in data:
+        data = data.replace(b"\r\n", b"\n")
+    return hashlib.sha256(data).hexdigest()
 
 
 def repo_files():
